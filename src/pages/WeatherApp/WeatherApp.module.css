@@ -1,0 +1,67 @@
+.main{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.search{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.search button{
+    border: none;
+    background: blue;
+    color: white;
+
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+.search input{
+    border: 1px solid blue;
+    outline: none;
+
+    width: 200px;
+    height: 50px;
+
+    padding-left: 10px;
+}
+.result{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.forecastContainer{
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+}
+.forecast{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+    justify-content: center;
+}
+.forecastItem{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.home{
+    width: 100px;
+    height: 50px;
+    border: 1px solid blue;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 15px;
+}

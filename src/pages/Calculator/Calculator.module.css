@@ -1,0 +1,45 @@
+.main{
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+    gap: 10px;
+}
+.blog{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.main input{
+    width: 200px;
+    height: 30px;
+
+    outline: none;
+}
+.main select{
+    width: 50px;
+    height: 30px;
+}
+.main button{
+    width: 50px;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+}
+.alternative{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+.alternative button{
+    width: 100px;
+    height: 30px;
+    border: none;
+
+    cursor: pointer;
+}
