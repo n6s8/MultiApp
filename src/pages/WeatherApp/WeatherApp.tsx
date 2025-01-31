@@ -39,14 +39,15 @@ export default function WeatherApp() {
     const fetchWeather = async (selectedCity: string) => {
         try {
             const response = await fetch(
-                `http://api.weatherapi.com/v1/forecast.json?key=59cd4100d53e4d4986794714253101&q=${selectedCity}&days=5`
+                `https://api.weatherapi.com/v1/forecast.json?key=${import.meta.env.VITE_WEATHER_API_KEY}&q=${selectedCity}&days=5`
             );
             const data: WeatherData = await response.json();
             setWeather(data);
         } catch (error) {
-            console.log(error);
+            console.error("Weather API fetch error:", error);
         }
     };
+
 
     useEffect(() => {
         fetchWeather(city);

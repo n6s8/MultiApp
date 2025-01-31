@@ -2,7 +2,7 @@ import styles from "./Media.module.css"
 import { useNavigate } from "react-router-dom";
 
 export default function Media() {
-    let navigate = useNavigate();
+    const navigate = useNavigate();
 
     return(
         <div className={styles.main}>
