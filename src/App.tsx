@@ -1,10 +1,10 @@
-import './App.css'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home/Home.tsx";
 import Calculator from "./pages/Calculator/Calculator.tsx";
 import WeatherApp from "./pages/WeatherApp/WeatherApp.tsx";
 import Media from "./pages/Media/Media.tsx";
 import Recipes from "./pages/Recipes/Recipes.tsx";
+import "./App.css"
 
 function App() {
 
